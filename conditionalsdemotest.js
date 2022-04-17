@@ -6,17 +6,17 @@ var enbuyuk = 0
 
 if(enbuyuk<sayi1)
 {
-    enbuyuk + 1
-    'return(enbuyuk)'
+    enbuyuk = enbuyuk + 1
+    "return()"
 }
 if(enbuyuk<sayi2)
 {
-    enbuyuk + 1
+    enbuyuk = enbuyuk + 1
     'return(enbuyuk)'
 }
 if(enbuyuk<sayi3)
 {
-    enbuyuk + 1
+    enbuyuk = enbuyuk + 1
     'return(enbuyuk)'
 }
 console.log("Bu sayıların icinde en buyugu =" + enbuyuk)
